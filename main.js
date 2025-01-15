@@ -1,5 +1,5 @@
 /* 1일차
-var name = "John"; //var는 보안에 문제성이 있어서 let키워드로 대체됨.
+//var name = "John"; //var는 보안에 문제성이 있어서 let키워드로 대체됨.
 //var age = 25;
 //var carear = 3;
 //var phoneNumber = "01012345678";
@@ -87,15 +87,12 @@ function star(count) {
 
 star(5);
 
-
-
- */
 // 별 순서대로 나열하기(거꾸로)
 let result = "";
 
 function star(count) {
     for(let i = 1; i <= count; i++){
-        for(let j = count; j >= i; j--){
+        for(let j = count; j >= i; j--){ //여기 조건도 바꿔라 빡대가리야
             result += "*";
         }
         console.log(result);
@@ -104,3 +101,5 @@ function star(count) {
 }
 
 star(5);
+
+ */
