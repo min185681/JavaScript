@@ -103,3 +103,43 @@ function star(count) {
 star(5);
 
  */
+
+/* 3일차
+const 규도 = ["엄마생각빌라", "301호" ];
+
+console.log(규도);
+
+const player = {
+    id : "속초 감자 무봤나",
+    email : "teho24@potato.com",
+    level : 1234,
+    FriendList : ["김민식", "고은준", "규선생", "멍청이"] 
+}
+
+console.log(player);
+
+
+forEachs는 반복문을 조금더 간단하게 만들수 있는 방법 중에 하나이다. 순서는 name, index, orign 순서입니다
+사용방법은:
+const names = ["이름", "이름2", "이름3"];
+
+names.forEach((name) => {
+    console.log(name);
+});
+
+const obj = {
+    name : "John",
+    age : 30,
+    job : "developer",
+};
+console.log(obj["name"]); //이거는 name의 결과값을 가져오는거
+
+const result = Object.keys(obj); //obj의 keys(name, age, job)을 가져와서 result에 저장
+
+result.forEach((key) => { 
+    console.log(`${key} : ${obj[key]}` ) //key값을 하나하나 가져와서 순서대로 key : values를 출력한다(name : John하고 age : 30이런식으로 하나씩 가져와서 던져줌)
+})
+
+
+*/
+
