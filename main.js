@@ -143,3 +143,28 @@ result.forEach((key) => {
 
 */
 
+// class Pet {
+//     constructor(name, age) {
+//         console.log(`IN PET CONSTRUCTOR!`)
+//         this.name = name;
+//         this.age = age;
+//     }
+//     eat() {
+//         return `${this.name} is eating!`
+//     }
+// }
+
+// class Cat extends Pet {
+//     constructor(name, age, livesLeft = 9) {
+//         console.log(`IN CAT CINSTRUCTOR!`)
+//         super(name, age)
+//         this.livesLeft = livesLeft;
+//     }
+//     meow() {
+//         return `MEOWWWW`
+//     }
+// }
+
+// const min = new Cat(`min`, 10);
+
+// console.log(min);
