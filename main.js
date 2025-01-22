@@ -143,28 +143,97 @@ result.forEach((key) => {
 
 */
 
-// class Pet {
-//     constructor(name, age) {
-//         console.log(`IN PET CONSTRUCTOR!`)
-//         this.name = name;
-//         this.age = age;
-//     }
-//     eat() {
-//         return `${this.name} is eating!`
-//     }
-// }
+/*4일차
+class Pet {
+    constructor(name, age) {
+        console.log(`IN PET CONSTRUCTOR!`)
+        this.name = name;
+        this.age = age;
+    }
+    eat() {
+        return `${this.name} is eating!`
+    }
+}
 
-// class Cat extends Pet {
-//     constructor(name, age, livesLeft = 9) {
-//         console.log(`IN CAT CINSTRUCTOR!`)
-//         super(name, age)
-//         this.livesLeft = livesLeft;
-//     }
-//     meow() {
-//         return `MEOWWWW`
-//     }
-// }
+class Cat extends Pet {
+    constructor(name, age, livesLeft = 9) {
+        console.log(`IN CAT CINSTRUCTOR!`)
+        super(name, age)
+        this.livesLeft = livesLeft;
+    }
+    meow() {
+        return `MEOWWWW`
+    }
+}
 
-// const min = new Cat(`min`, 10);
+const min = new Cat(`min`, 10);
 
-// console.log(min);
+console.log(min);
+
+// 과일 클래스
+class Fruit {
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+    print() {
+        console.log(`${this.name}의 가격은 ${this.price}원 입니다.`);
+    }
+}
+
+const fruits = [
+    new Fruit('바나나', 3000),
+    new Fruit('딸기', 4000),
+    new Fruit('수박', 8000),
+    new Fruit('배', 7000),
+];
+
+for(let Fruits of fruits) {
+    Fruits.print();
+}
+
+//클래스 상속
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+class Professor extends Person {
+    constructor(school, major, officenumber, name, age) {
+        super(name, age);
+        this.school = school;
+        this.major = major;
+        this.officenumber = officenumber;
+
+    }
+    printinfo() {
+        console.log(`name: ${this.name}`);
+        console.log(`age : ${this.age}`);
+        console.log(`school: ${this.school}`);
+        console.log(`major : ${this.major}`);
+        console.log(`officenumber : ${this.officenumber}`);
+    }
+}
+
+const 교수 = new Professor("배재대", "컴퓨터공학과", "403", "윤규도", "24");
+
+교수.printinfo();
+
+// 기본값 넣는 방법
+class Person {
+    constructor(name = "비공개", age = 25){
+        this.name = name;
+        this.age = age;
+    }
+}
+
+const 사람1 = new Person();
+const 사람2 = new Person("김민식", 25);
+
+console.log(사람1);
+console.log(사람2);
+
+*/
+
