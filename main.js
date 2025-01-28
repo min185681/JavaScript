@@ -109,6 +109,10 @@ const 규도 = ["엄마생각빌라", "301호" ];
 
 console.log(규도);
 
+규도 .push("24"); // 배열에 추가 
+
+console.log(규도);
+
 const player = {
     id : "속초 감자 무봤나",
     email : "teho24@potato.com",
@@ -236,4 +240,3 @@ console.log(사람1);
 console.log(사람2);
 
 */
-
