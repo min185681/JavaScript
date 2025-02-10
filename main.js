@@ -240,3 +240,21 @@ console.log(사람1);
 console.log(사람2);
 
 */
+
+/* 혼자 공부
+
+const player = {
+    name: "규도",
+    sayHello: function (otherPersonName) {
+        console.log("Hello " + otherPersonName + " nice to meet you")
+    },
+};
+
+player.sayHello("lynn");
+player.sayHello("태호");
+
+*/
+
+
+
+
