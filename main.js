@@ -255,6 +255,3 @@ player.sayHello("태호");
 
 */
 
-
-
-
